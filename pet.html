@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        nav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+
+        nav a {
+            display: block;
+            padding: 12px 10px 12px 32px;
+
+        }
+
+        nav a:hover{
+
+            color: #000000;
+            background-color: white;
+        }
+        
+    </style>
+
+
+
 </head>
 <body>
-
-<header style="text-align: center; background-color: #541edc; color: white; padding: 20px;">
+<header style="text-align: center; margin: 0px; background-color: #000000; color: white; padding: 20px;">
     <h1>Bem-vindo ao PetShop Mundo Animal</h1>
 </header>
 
-
-<nav style="text-align: center; background-color: #090808; padding: 10px;">
+<nav style="text-align: center; background-color: #000000; padding: 10px;">
     <a href="#home" style="color: white; margin: 10px; text-decoration: none;">Home</a>
     <a href="#sobre" style="color: white; margin: 10px; text-decoration: none;">Sobre</a>
     <a href="#produtos" style="color: white; margin: 10px; text-decoration: none;">Produtos</a>
@@ -23,7 +55,7 @@
 <iframe src="./imagens/{5C0D61AA-D808-44B7-9EF2-6CD84563CDC6}.png" height="330" width="830" title="MundoAnimal"></iframe>
     
 
-<section id="home" style="padding: 20px; text-align: left;">
+<section id="home" style="padding: 20px; text-align: center;">
     <h2>Home</h2>
     <img src="imagens/faixada.jpg" alt="Imagem do PetShop" style="width: 100%; max-width: 600px; border-radius: 8px;">
     <p>Bem-vindo ao nosso PetShop! Aqui você encontra tudo o que seu pet precisa para viver feliz e saudável.</p>
