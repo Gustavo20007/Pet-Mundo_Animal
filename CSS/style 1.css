@@ -1,0 +1,26 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+nav {
+ height: 100%;
+ width: 140px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ overflow: hidden;
+}
+
+nav a {
+  display: block;
+  padding: 12px 10px 12px 32px;
+
+}
+
+nav a:hover{
+
+  color: #000000;
+  background-color: white;
+}
